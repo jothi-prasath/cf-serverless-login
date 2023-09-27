@@ -46,7 +46,7 @@ async function handleRequest(request) {
 }
 
 function isValidUser(username, password) {
-	if (username == "admin" && password == "admin"){
+	if (username == USERNAME && password == PASSWORD){
 		return true;
 	}
 	else{
